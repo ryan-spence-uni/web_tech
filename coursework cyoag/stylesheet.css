@@ -1,0 +1,59 @@
+body {
+  background-color: #1e1e1e;
+  font-family: "Times New Roman", Times, serif;
+}
+h1 {
+  text-align: center;
+  color: darkgrey;
+}
+.text {
+  color: darkgrey;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: larger;
+}
+/* helped by w3 schools css buttons page https://www.w3schools.com/css/css3_buttons.asp*/
+.menu {
+  background: #1e1e1e;
+  text-align: left;
+}
+.menu ul {
+  display: inline-flex;
+}
+.menu ul li {
+  width: 2500;
+  margin: 25px;
+  padding: 25px;
+}
+.menu ul li a {
+  color: darkgrey;
+}
+.active,
+.menu ul li:hover {
+  background: darkblue;
+  border-radius: 6px;
+}
+
+.selection {
+  background: #1e1e1e;
+  text-align: left;
+}
+
+a:link,
+a:visited {
+  background-color: #1e1e1e;
+  color: darkgray;
+}
+a:hover,
+a:active {
+  background-color: #1e1e1e;
+  color: darkblue;
+}
+.Image {
+  width: 525px;
+  margin-left: 20px;
+}
+
+img {
+  width: 100%;
+}
